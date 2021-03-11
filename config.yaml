@@ -1,0 +1,19 @@
+news_sites:
+  eltiempo:
+    url: https://www.eltiempo.com/
+    queries:
+      homepage_article_links: ".title-container a"
+      article_body: ".article-page"
+      article_title: ".titulo-principal-bk h1"
+  revistasemana:
+    url: https://www.semana.com/
+    queries:
+      homepage_article_links: ".article-h a"
+      article_body: ""
+      article_title: ""  
+  elespectador:
+    url: https://www.elespectador.com/ #tener en cuenta el espacio entre url: y la direccion, es importante.
+    queries:
+      homepage_article_links: ".Card-title a"
+      article_body: ""
+      article_title: ""
